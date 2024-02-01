@@ -1,0 +1,5 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/picm9393/public_html/konsinyasi.piciskom.my.id
+- /bin/cp -R * $DEPLOYPATH
