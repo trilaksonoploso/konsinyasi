@@ -1,5 +1,5 @@
 ---
 deployment:
-tasks:
-- export DEPLOYPATH=/home/picm9393/public_html/konsinyasi.piciskom.my.id
-- /bin/cp -r * $DEPLOYPATH
+      tasks:
+        - export DEPLOYPATH=/home/picm9393/public_html/konsinyasi.piciskom.my.id  # Add /<app_folder> if required
+        - /bin/cp -r * $DEPLOYPATH                                                #copy all recursively to $DEPLOYPATH
